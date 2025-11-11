@@ -49,17 +49,3 @@ def handle_file(file: UploadFile, process_function, prefix: str):
     except Exception as e:
         return JSONResponse({"status": "error", "error": str(e)}, status_code=500)
 
-# Jantung extraction endpoint
-@app.post("/Extract-Jantung")
-async def extract_jantung(file: UploadFile = File(...)):
-    return handle_file(file, process_jantung_data, "jantung")
-
-# Ranap extraction endpoint
-@app.post("/Extract-Ranap")
-async def extract_ranap(file: UploadFile = File(...)):
-    return handle_file(file, process_ranap_data, "ranap")
-
-# Resume Medis extraction endpoint
-@app.post("/Extract-ResumeMedis")
-async def extract_resumemedis(file: UploadFile = File(...)):
-    return handle_file(file, process_resumemedis_data, "resumemedis")
