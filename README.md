@@ -216,21 +216,21 @@ Produces a cleaned, structured CSV file optimized for:
 <!-- Add your screenshots here -->
 
 **Upload Interface:**
-![Upload Interface](path/to/upload-screenshot.png)
-*CSV file upload interface with record type selection*
+![Upload Interface](<img width="704" height="652" alt="image" src="https://github.com/user-attachments/assets/ce4fccc0-0991-4bbf-b5a8-3900ab32ab71" />
+)
+*CSV file upload interface*
 
-**Processing Status:**
-![Processing Status](path/to/processing-screenshot.png)
-*Real-time processing status indicator*
 
 **Results Download:**
-![Results Download](path/to/results-screenshot.png)
+![Results Download](<img width="803" height="254" alt="image" src="https://github.com/user-attachments/assets/18d4c7fd-8bc6-493c-a28f-a61c214f7093" />
+)
 *Successfully processed data ready for download*
 
 ### API Documentation
 
 **Swagger UI:**
-![Swagger UI](path/to/swagger-screenshot.png)
+![Swagger UI](<img width="1554" height="437" alt="image" src="https://github.com/user-attachments/assets/6c11a2d1-9f42-4ad0-8f28-ffc0ac27d694" />
+)
 *Interactive API documentation at /docs endpoint*
 
 ---
