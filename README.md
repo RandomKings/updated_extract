@@ -5,7 +5,6 @@ A comprehensive data processing solution featuring a **FastAPI backend** and **H
 ## 📋 Table of Contents
 
 - [Overview](#overview)
-- [Features](#features)
 - [Supported Record Types](#supported-record-types)
 - [Repository Links](#repository-links)
 - [Project Structure](#project-structure)
