@@ -242,12 +242,6 @@ Create a `.env` file in the backend root directory:
 ```env
 # Required
 GEMINI_API_KEY=your_google_gemini_api_key
-
-# Optional
-PORT=8000
-HOST=0.0.0.0
-DEBUG=False
-LOG_LEVEL=INFO
 ```
 
 ### Obtaining a Gemini API Key
