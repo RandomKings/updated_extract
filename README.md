@@ -216,16 +216,19 @@ Produces a cleaned, structured CSV file optimized for:
 
 **Upload Interface:**
 ![Upload Interface](https://github.com/user-attachments/assets/ce4fccc0-0991-4bbf-b5a8-3900ab32ab71)
+
 *CSV file upload interface*
 
 **Results Download:**
 ![Results Download](https://github.com/user-attachments/assets/18d4c7fd-8bc6-493c-a28f-a61c214f7093)
+
 *Successfully processed data ready for download*
 
 ### API Documentation
 
 **Swagger UI:**
 ![Swagger UI](https://github.com/user-attachments/assets/6c11a2d1-9f42-4ad0-8f28-ffc0ac27d694)
+
 *Interactive API documentation at /docs endpoint*
 
 ---
