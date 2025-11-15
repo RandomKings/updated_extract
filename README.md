@@ -171,27 +171,6 @@ vercel --prod
 
 ### API Integration
 
-**Example cURL request:**
-```bash
-curl -X POST "http://127.0.0.1:8000/process/jantung" \
-  -H "Content-Type: multipart/form-data" \
-  -F "file=@input.csv" \
-  -o output.csv
-```
-
-**Python example:**
-```python
-import requests
-
-url = "http://127.0.0.1:8000/process/jantung"
-files = {"file": open("input.csv", "rb")}
-
-response = requests.post(url, files=files)
-
-with open("output.csv", "wb") as f:
-    f.write(response.content)
-```
-
 ---
 
 ## Processing Pipeline
